@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient( #5689cc, #3364a8);
+    display:flex;
+    align-items :center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+
+
+    
+}
+
+
+.icon img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0;
+}
+
+h1{
+    color: rgb(212, 197, 38);
+    font-size:50px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.button button {
+    background: linear-gradient(135deg, #ffea00, #d6d600); /* Gradient yellow */
+    color:#3364a8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    align-items: center;
+
+}
+
+.button button:hover{
+    background: #a9a907;
+}
