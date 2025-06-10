@@ -17,17 +17,17 @@ async function getWeather(){
         const description = data.weather[0].description;
         let icon = ""
         if (description.includes("rain")) {
-            icon = "rainy.png";
+            icon = "/rainy.png";
         } else if (description.includes("thunderstorm")) {
-            icon = "thunder.png";
+            icon = "/thunder.png";
         } else if (description.includes("clear")) {
-            icon = "sunny.png";
+            icon = "/sunny.png";
         } else if (description.includes("snow")) {
-            icon = "snowy.png";
+            icon = "/snowy.png";
         } else if (description.includes("cloud")) {
-            icon = "cloudy.png";
+            icon = "/cloudy.png";
         } else {
-            icon = "default.png"; 
+            icon = "/default.png"; 
         }
         
 
